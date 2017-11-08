@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql_db": {
+    "name": "mysql_db",
+    "connector": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "database": "BookNetwork",
+    "password": "innbuilt123",
+    "user": "root"
+ }
+}

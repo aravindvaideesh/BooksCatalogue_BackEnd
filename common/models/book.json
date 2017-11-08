@@ -1,0 +1,49 @@
+{
+  "name": "book",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true,
+      "required": false,
+      "index": true
+    },
+    "isbn": {
+      "type": "number",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "available": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "imagePath": {
+      "type": "string",
+      "required": false
+    },
+    "createdon": {
+      "type": "number",
+      "required": false
+    },
+    "modifiedon": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
